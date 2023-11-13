@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisão</title>
+</head>
+
+<body>
+    <h1>Divisão Simples- Javascript</h1>
+
+    <p id="demo"></p>
+
+    <script>
+        let x = 100;
+        let y = 5;
+        let z = x / y;
+
+        document.getElementById("demo").innerHTML = "100 dividido por 5 é: " + z;
+    </script>
+</body>
+
+</html>
+      
