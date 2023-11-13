@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplicação</title>
+</head>
+
+<body>
+    <h1>Multiplicação  - Javascript</h1>
+
+    <p id="demo"></p>
+
+    <script>
+        let x = 15;
+        let y = 2;
+        let z = x * y;
+
+        document.getElementById("demo").innerHTML = "O dobro de 15 é: " + z;
+    </script>
+</body>
+
+</html>
+      
